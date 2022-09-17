@@ -1,0 +1,51 @@
+@import '~normalize.css';
+@import 'styles/colors';
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+// mat-snackbar
+snack-bar-container {
+  simple-snack-bar {
+    span {
+      margin: auto;
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+
+  &.success {
+    background-color: $success-color;
+    color: $font-color-dark;
+  }
+}
+
+//number input type
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
