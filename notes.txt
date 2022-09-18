@@ -1,0 +1,8 @@
+To Build:
+docker build -t <docker-nickname>/pizza-angular .
+
+To create a container from an image
+docker run --name frontend -d -p 4400:80 <docker-nickname>/pizza-angular
+or
+docker images
+docker run --name frontend -d -p 4400:80 <imageId>

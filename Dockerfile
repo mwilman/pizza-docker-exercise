@@ -12,3 +12,6 @@ FROM nginx:1.17.1-alpine
 
 # Copy nginx.conf into /etc/nginx/nginx.conf
 # Copy files from stage1 to stage2 into /usr/share/nginx/html
+
+
+# Done? Want to build and run? Take a look into the notes.txt
